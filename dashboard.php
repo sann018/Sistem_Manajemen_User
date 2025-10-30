@@ -29,7 +29,7 @@ $conn->close();
         <!-- Header Dashboard -->
         <div class="dashboard-header">
             <h1>Dashboard Admin Gudang</h1>
-            <p>Selamat datang, <strong><?php echo htmlspecialchars($user['fullname']); ?></strong> (<?php echo htmlspecialchars($user['role']); ?>)</p>
+            <p>Selamat datang, <strong><?php echo htmlspecialchars($user['fullname']); ?></strong><?php echo htmlspecialchars($user['role']); ?></p>
             <p>Email: <?php echo htmlspecialchars($user['email']); ?></p>
             
             <div class="dashboard-nav">
